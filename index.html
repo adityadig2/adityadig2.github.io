@@ -1,1 +1,19 @@
-Hello World
+<html>
+
+<head>
+	<title>Sample Frame</title>
+	<meta charset="UTF-8" />
+	<script src="https://aframe.io/releases/1.0.3/aframe.min.js"></script>
+	<script src="https://rawgit.com/imaya/zlib.js/develop/bin/inflate.min.js"></script>
+	<script src="https://rawgit.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
+</head>
+
+<body>
+<a-scene>
+	<a-entity animation-mixer fbx-model="src: url(kitchen.fbx)" 
+        position="0 0 -7" scale="0.035 0.035 0.035" rotation="0 -90 0">
+	</a-entity>	
+</a-scene>
+</body>
+
+</html>
